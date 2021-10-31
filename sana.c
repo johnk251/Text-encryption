@@ -9,7 +9,7 @@ if (arg<2){
 printf("USAGE: cc text.txt 1 or 2  privatekey \n");
 printf("1 for encrytion and 2 for decrytion");
 
-
+return 1;
 }
 
 FILE * textfile ;
@@ -62,5 +62,5 @@ fclose(textfile);
 fclose(outfile);
 
 
-
+return 0;
 }
